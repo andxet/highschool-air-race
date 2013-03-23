@@ -1,0 +1,20 @@
+.:Air Race:.
+
+I.T.I.S. "Q. Sella" Biella
+
+Area di progetto di Peretti Andrea e Salillari Ledi V A INFO Anno Scolastico 2008/2009
+
+Dipendenze:
+irrlicht 1.5.1
+irrklang 1.1.2
+
+Istruzioni per compilare tramite dev c++:
+Scaricare ed estrarre dal sito ufficiale irrlicht e irrklang, preferibilmente le versioni indicate più in altro perchè quelle più recenti non sono retrocompatibili.
+Aprire il file Macchine.dev, nelle opzioni del progetto, sia per irrlicht che per irrklang:
+- Nella tab Parametri aggiungere nella sezione Linker il collegamento al file .a situato nella cartella lib
+- Nella tab Files/Cartelle, sezione Cartella Liberie aggiungere il collegamento a alla cartella lib/Win32-gcc
+- Nella stessa tab, sezione Cartelle Include aggiungere il collegamento alla cartella include
+
+Infine per permettere l'avvio del gioco, copiare nella stessa cartella dell'eseguibile i file ikpMP3.dll irrKlang.dll Irrlicht.dll situati nella cartella bin/win32-gcc.
+
+Le istruzioni per compilare con le librerie irrlicht ed irrklang sono presenti anche nei rispettivi siti delle librerie.
