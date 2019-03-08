@@ -1,4 +1,5 @@
 # Air race
+![Game image](Documentazioni/Logo.jpg?raw=true "Title")
 
 ## Info about the project
 This is a 3D game and is developed with IrrLicht.
