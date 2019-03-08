@@ -2,6 +2,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #pragma comment(lib, "Irrlicht.lib")
 #endif
+#define _USE_MATH_DEFINES
+#include <math.h>
 
 #include <irrlicht.h>
 #include <iostream> 
